@@ -1,0 +1,95 @@
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.from {
+    padding: 2.5rem 3rem 2.5rem 5rem;
+    width: 100%;
+    height: 14rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background: var(--bg-input-color);
+    border-radius: 10px;
+}
+
+.input-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-wrapper label {
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+    color: var(--bg-select-color);
+
+    margin-bottom: 1rem;
+}
+.input-wrapper input {
+    padding: 5px;
+    width: 12rem;
+
+    border: none;
+
+    font-family: var(--body-font);
+    font-size: 2.5rem;
+    line-height: 3.1rem;
+}
+
+.coin-wrapper {
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.to {
+    margin-top: -15px;
+    margin-bottom: 1rem;
+
+    padding: 2.5rem 3rem 2.5rem 5rem;
+    width: 100%;
+    height: 14rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background: var(--bg-input-color);
+    border-radius: 10px;
+}
+
+.value-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.value-wrapper span {
+    font-size: 3rem;
+    line-height: 3.8rem;
+}
+
+.arrow-middle {
+    margin-top: -15px;
+}
+
+.price-wrapper {
+    width: 100%;
+    padding: 0 10px;
+    margin-bottom: 4rem;
+
+    display: flex;
+    justify-content: space-between;
+    line-height: 2rem;
+}
+
+nav a:nth-child(1) {
+    padding-bottom: 8px;
+    margin-top: -15px;
+    border-bottom: 2px solid white;
+}
